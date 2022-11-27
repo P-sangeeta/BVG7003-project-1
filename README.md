@@ -6,7 +6,9 @@ the first step is demultiplexing using the sabre tool
 the second step is trimming of data to remove the barcode and adaptor using cutadapt tool
 # mapping
 the trimming is followed by Allingnement which is done by using BWA tools
-the variant CPU needs to be change according to my CPU otherwise the data is not processed resulting in killed error message in bwa.log
+
+the variant CPU needs to be change according to local computer CPU otherwise the data is not processed resulting in killed error message in bwa.log
+
 the allingement steps is divided into two parts first we do the mapping resulting in SAM files
 # sam2bam
 the second step of allingement is to convert the SAM files to BAM files
